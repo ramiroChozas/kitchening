@@ -1,0 +1,136 @@
+/*generales*/
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+} a{
+    color: white;
+}
+body{
+    background-image: url("./images/bg-body.png");
+}
+.main-container{
+    max-width: 1180px;
+    margin: 0 auto;
+    color: #666;
+}
+/*login*/
+.login-register{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.login-register ul{
+    display: flex;
+    flex-direction: row;
+}
+.log{
+    color: black;
+ text-decoration: none;
+
+     margin: 10px;
+}
+/*logo*/
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+header img{
+    border-radius: 70px;
+}
+/*barra navegacion*/
+.navegacion{
+    max-width: 1180px;
+}
+.nav-ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    flex-wrap: wrap;
+    align-items: space-between;
+}
+.nav-ul li{
+    display: flex;
+    background-color:  #444;
+    flex-basis: 180px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.home{
+    margin-right: 20px;
+}
+ 
+  .quienes{
+    margin-right: 20px;
+}
+.servicios{
+    margin-right: 20px;
+}
+.portfolio{
+    margin-right: 20px;
+}
+.sucursales{
+    margin-right: 20px;
+}
+/*banner*/
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.banner img{
+    width: 1180px;
+}
+/*productos*/
+.productos{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.productos img{
+    width: 380px;
+}
+.productos article{
+
+     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 380px;
+}
+.productos ul{
+    padding: 0;
+}
+.productos article li{
+    background-color:  #444;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} h2{
+    color: black;
+}
+/*footer*/
+footer{
+    margin-top: 30px;
+    background-color: rgb(200,0,0);
+    height: 50px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.nav-footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nav-footer li{
+    margin: 10px;
+    color: white;
+}
